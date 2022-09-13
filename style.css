@@ -1,0 +1,30 @@
+/*pengaturan border-collapse
+jenis, ukuran serta warna huruf secara keseluruhan tabel */
+table {
+    border-collapse: collapse;
+    font:normal normal 12px
+    Verdana, Arial, Sans-Serif;
+    color:#333333;
+}
+/* Mengatur warna latar, warna teks, ukuran font dan jenis bold pada header tabel */
+table th {
+    background: #00BFFF;
+    color: #DCDCDC;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* mengatur border dan jarak/ruang pada kolom*/
+table th,
+table td {
+    vertical-align: top;
+    padding: 5px 10px;
+    border: 1px solid#696969;
+}
+/*mengatur warna baris*/
+table tr {
+    background: #F5FFFA;
+}
+/* mengatur warna baris genap (akan menghasilkan warna selang seling pada baris tabel*/
+table tr:nth-child(even) {
+    background: #F0F8FF;
+}
